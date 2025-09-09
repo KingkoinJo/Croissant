@@ -2,7 +2,7 @@ body {
   background-color: rgb(145, 99, 2);
 }
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   white-space: nowrap;
 }
 header {
@@ -13,7 +13,7 @@ header {
   gap: 10px;
 }
 p {
-  padding: 20px;
+  padding: 15px;
   margin: 0 0 15px 0;
   font-size: 20px;
   text-align: center;
@@ -36,11 +36,12 @@ p a {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
 }
 footer {
-  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   text-align: center;
 }
 footer a {
-  margin: 25px;
   font-size: 20px;
   font-weight: 600;
   color: rgb(3, 3, 119);
